@@ -1,3 +1,55 @@
+body {
+  background: linear-gradient(235deg, #fdfcfb 0%, #e2d1c3 100%);
+  min-height: 100vh;
+  font-family: "Inter Tight", sans-serif;
+}
+
 h1 {
-  font-color: red;
+  margin-bottom: 40px;
+  font-weight: 900;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 12px 0 0 0;
+  text-align: left;
+  font-size: 13px;
+}
+
+.frame {
+  padding: 40px;
+  margin: 40px;
+  border: 2px solid #000;
+  border-radius: 4px;
+  background-color: rgb(254, 244, 244);
+}
+
+.top-weather {
+  margin: 10px 0;
+}
+.weather {
+  padding: 5px 0;
+  border: 1px solid #000;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  font-size: 24px;
+  background-color: #fdfcfb;
+}
+
+.hightemp,
+.day {
+  font-weight: bold;
+}
+
+.highlight {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.city-name {
+  text-align: left;
+}
+
+.info {
+  vertical-align: middle;
 }
